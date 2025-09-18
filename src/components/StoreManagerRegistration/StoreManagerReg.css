@@ -1,0 +1,193 @@
+.AccelerateH {
+ font-family: 'ubuntu', sans-serif;
+  font-size: 13px;
+  letter-spacing: -0.28px;
+  text-align: center;
+  margin-right: 17%;
+  color: #3d3d3d;
+}
+.p-inputtext {
+  margin: 0;
+  height: 40px !important;
+  margin-top: 3px;
+  width: 100% !important;
+  border-radius: 10px;
+  border: 1px solid #05bb56;
+}
+.errorStyle {
+  color:darkred;
+  box-shadow: 0 0 0 0.2 darkred !important;
+  position: absolute;
+  margin-top: auto;
+}
+.errorStyleforstoremanager {
+  position: relative; 
+}
+.Store-Manager-Details {
+  width: 206px;
+  height: 23px;
+  margin: 29px 32px 27px 30px;
+  font-family: 'ubuntu', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  text-align: center;
+  color: #333;
+}
+.textarearow{
+  display: flex;
+  flex-direction: row;
+  padding-left: 25px;
+  margin-right: 30px;
+  margin-bottom: 7px;
+  gap:100px;
+}
+.textareacol{
+  display: flex;
+    flex-direction: column;
+    margin-left: 26px;
+    margin-right: 35px;
+}
+.buttonreg {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 37%;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.btnreg{
+  color: #91dc85;
+  margin-top: 2%;
+  margin-left: 32.55%;
+}
+.optionmargin{
+  margin-left: 10px; 
+}
+.youregender{
+  padding-left: 25px;
+}
+.youregenderh{
+  margin-left:25 px;
+  margin-top:6px; 
+}
+.textareabox{
+  width:326px !important;
+  margin-top:-3px;
+}
+.textareabotwo{
+  margin-right: 200px;
+}
+.buttonstyle{
+  color: #ffffff;
+  font-family: 'ubuntu', sans-serif;
+  font-size: 20px;
+  height: 44px;
+  width: 53%;
+  border-radius: 10px;
+  border: 1px solid gray;
+  background-color: #009b45;
+  margin-left: -100px;
+  cursor: pointer;
+  }
+
+.pical{
+  margin-right: 38%;
+}
+.imagemarleft{
+margin-left: 30%;
+margin-top: 13px;
+}
+.storepaddleft{
+  padding-left:25px
+}
+.yourgenpadleft{
+  padding-left: 25px;
+  margin-top: -6px;
+  margin-bottom: 5px;
+}
+.radiomarleft{
+  margin-left: 50px;
+}
+.cityinput{
+  border-radius: 10px;
+   height: 37px;
+}
+.anchorcolor{
+  color:green;
+}
+.margleftp{
+  margin-left: 11px;
+}
+.marginleftpassword{
+  margin-left:-5px;
+}
+.reactanglepadding
+{
+  padding: 5% 13% 0% 17%;
+}
+.p-password {
+  position: relative;
+  display: inline-flex;
+  width: 97%;
+  margin-left: 6px;
+}
+.greenboredr{
+  border-style: solid;
+  border-color: #05bb56;
+  border-width: 1px;
+}
+.labelmarginbottom{
+  margin-bottom: -0.5rem;
+}
+.dividermaindivreg{
+  margin-Right:17px;
+  margin-Left:17px;
+}
+.dividertwomarginreg{
+  margin-Top:-5px
+}
+.dividermarginleft{
+  margin-left: -1%;
+}
+.marginleft-passwordlable{
+  margin-left: 6px;
+}
+.usemylocation{
+    color: #ffffff;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 18px;
+    height: 44px;
+    width: 19%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: #009b45;
+    margin-left: 45.5%;
+    cursor: pointer;
+    margin-top: 1%;
+}
+.usemylocdiv{
+ margin-top:-5%
+}
+.mapicon{
+  margin-right: 7px;
+}
+.toastmessagereg{
+  background-color:#f4e1e1;
+  margin-left: 100%;
+}
+.Toastify__toast-container {
+  margin-left:-22%;
+}
+.toastcontainer{
+  margin-left:-24%;
+}

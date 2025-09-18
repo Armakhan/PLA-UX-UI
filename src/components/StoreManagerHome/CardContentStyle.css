@@ -1,0 +1,177 @@
+.challnengenameheading {
+  width: 100%;
+  margin-bottom: 13px;
+  height: fit-content;
+  flex-grow: 0;
+  font-family: "ubuntu", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: 0.48px;
+  text-align: left;
+  color: #272936;
+}
+
+.flexdisplay {
+  display: flex;
+}
+
+.cardawardimgstyle {
+  margin-right: 4px;
+}
+
+.entiretabpanel {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.startheading {
+  font-family: "ubuntu", sans-serif;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #272936;
+  width: fit-content;
+  padding: 3px;
+  height: fit-content;
+  font-size: 12px;
+  margin-right: 0%;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  background: #bfe8cd;
+}
+
+.bodydesign {
+  height: 30%;
+  width: 300px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 7px;
+  gap: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border-radius: 8px;
+  border: solid 1px green;
+}
+
+.txtsideimg {
+  width: 218px;
+  height: 16px;
+  flex-grow: 0;
+  font-family: "ubuntu", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  text-align: left;
+  color: #666;
+}
+
+.awardsndtxtcontainer {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-grow: 0;
+  margin: 1px 2px 8px 3px;
+}
+
+.viewmorebuttonstyle {
+  color: var(--warm-grey);
+  width: 109px;
+  height: 34px;
+  margin: 12px 12px 0 0;
+  border-radius: 6px;
+  background-color: #fff;
+  border: solid 1.5px grey;
+}
+
+.enrollbuttonStyle {
+  color: #fff;
+  width: 105px;
+  height: 34px;
+  font-size: 16px;
+  margin-top: 12px;
+  border-radius: 6px;
+  border: solid 1.5px var(--emerald);
+  background-color: #009b45;
+  cursor: pointer;
+}
+
+.entirecontainer {
+  display: 'flex';
+  flex-wrap: 'wrap';
+}
+
+.awardsimg {
+  margin-right: 4px;
+  margin-top: 5px;
+  width: 16px;
+  height: 16px;
+}
+
+.custom-menubar {
+  background-color: #f1f1f1;
+}
+
+.dropdownclssoncontainer {
+  font-size: 14px;
+  margin-top: 2vh;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
+  flex-grow: 0;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: fit-content;
+  width: 20%;
+  margin-left: 52vw;
+}
+
+.selectoncontainer {
+  border-radius: 100px;
+}
+
+.viewdetailsbuttonstyle {
+  color: #fff;
+  width: 109px;
+  height: 34px;
+  margin-top: 7px;
+  border-radius: 6px;
+  border: solid 1.5px var(--emerald);
+  background-color: #009b45;
+}
+.daysleft{
+  margin-right: 7%;
+  margin-top: 2%;
+}
+.days{
+  color: rgb(72, 198, 85);
+  margin-right: 8%;
+  margin-top: -1%;
+}
+.enrolledmsg{
+  color: rgb(72, 198, 85);
+  margin-left: 22%;
+  font-size: 17px;
+  margin-bottom: 2%;
+  font-weight: normal;
+}
+.saveasdraft{
+  margin-left: 21%;
+  margin-bottom: 2%;
+}
+.defaultenrolled{
+  color: rgb(72, 198, 85);
+    margin-left: -15%;
+    font-size: 17px;
+    margin-bottom: 2%;
+    font-weight: normal;
+}

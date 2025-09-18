@@ -1,0 +1,53 @@
+/* .chartcontainer {
+    
+    border-radius: 3px;
+    margin-top: 4.5vh;
+    margin-left: 3vw;
+    padding: 2px;
+    padding-right: 2vw;
+    padding-bottom: 2vh;
+    height: fit-content;
+    width: fit-content;
+    display: flex;  
+    flex-direction: row;
+} */
+.chartcontainer {
+
+    border-radius: 3px;
+    display: flex;
+    margin-top: 4.5vh;
+    margin-left: 3vw;
+    padding: 2px;
+    padding-right: 2vw;
+    padding-bottom: 2vh;
+    height: fit-content;
+    width: fit-content;
+    flex-direction: row;
+}
+
+.eachgraph {
+    border: 1px solid black;
+    height: fit-content;
+    width: fit-content;
+    margin: 1vw;
+}
+
+/* .eachgraphcontainer
+{
+    height: 50%;
+    width:50%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-right: 0 !important;
+} */
+.close-button {
+    border: none;
+    background: none;
+    margin-left: 23vw;
+    cursor: pointer;
+}
+
+.closeimgstyle {
+    height: 15px;
+    width: 15px;
+}

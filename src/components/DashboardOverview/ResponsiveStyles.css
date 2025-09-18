@@ -1,0 +1,268 @@
+/* Responsive Styles for Dashboard */
+
+/* Base container styles */
+.dashboard-container {
+  max-width: 100%;
+  overflow-x: hidden;
+  padding: 0; /* Remove padding to prevent overflow */
+}
+
+/* Prevent content from overflowing */
+.charts-panel, .charts-display, .metrics-container {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Medium screens (tablets, less than 992px) */
+@media (max-width: 992px) {
+  /* Chart layout adjustments */
+  .charts-panel {
+    flex-direction: column;
+  }
+  
+  .chart-options {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+  
+  .charts-display {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .donut-chart-container, 
+  .bar-chart-container {
+    margin-bottom: 20px;
+    height: 400px;
+    width: 100%; /* Ensure charts take full width */
+    max-width: 100%;
+  }
+  
+  .donut-chart,
+  .bar-chart {
+    height: 300px;
+  }
+  
+  /* Tabs adjustments */
+  .tabs-container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 5px;
+  }
+  
+  .tab {
+    padding: 10px 15px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  
+  /* Metrics container */
+  .metrics-container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 10px;
+  }
+  
+  .metric-section {
+    width: 100%;
+    margin-bottom: 15px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .metric {
+    margin-left: 0;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .show-leaderboard {
+    margin-left: 0;
+  }
+  
+  /* Remove duplicated footer */
+  .dashboard-container .footermaincontainer {
+    display: none;
+  }
+}
+
+/* Small screens (phones, less than 768px) */
+@media (max-width: 768px) {
+  /* Header adjustments */
+  .dashboard-title {
+    font-size: 16px;
+  }
+  
+  .dashboard-header {
+    padding: 8px 5px;
+  }
+  
+  /* Tab adjustments */
+  .tabs-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    flex-wrap: nowrap;
+    padding: 0;
+  }
+  
+  .tab {
+    padding: 8px 12px;
+    font-size: 12px;
+    flex-shrink: 0;
+  }
+  
+  /* Charts adjustments */
+  .chart-type {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .chart-selector {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Metrics adjustments */
+  .metrics-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+  }
+  
+  .metric-section {
+    flex-wrap: wrap;
+  }
+  
+  .metric {
+    margin-bottom: 10px;
+    font-size: 12px;
+    width: 100%;
+  }
+  
+  /* Leaderboard adjustments */
+  .leaderboard-panel {
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  /* Ensure no horizontal overflow */
+  .donut-chart-container, 
+  .bar-chart-container {
+    padding: 10px;
+    height: 350px;
+    width: 100%;
+  }
+  
+  .donut-chart,
+  .bar-chart {
+    height: 250px;
+  }
+  
+  /* Charts options visibility */
+  .toggle-options-button {
+    display: block;
+  }
+}
+
+/* Extra small screens (small phones, less than 576px) */
+@media (max-width: 576px) {
+  /* Overall container padding */
+  .dashboard-container {
+    padding: 0;
+  }
+  
+  /* Header adjustments */
+  .dashboard-header {
+    padding: 8px 0;
+    height: auto;
+  }
+  
+  .back-button {
+    padding: 3px 8px;
+    font-size: 12px;
+  }
+  
+  /* Chart options */
+  .field-label {
+    font-size: 12px;
+  }
+  
+  .field-dropdown {
+    padding: 8px;
+    width: 100%;
+  }
+  
+  .save-button {
+    padding: 8px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Metrics section */
+  .show-leaderboard {
+    padding: 8px 12px;
+    font-size: 12px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Make sure chart containers don't overflow */
+  .chart-options {
+    padding: 10px;
+  }
+  
+  /* Set fixed height for charts to prevent overflow */
+  .donut-chart-container, 
+  .bar-chart-container {
+    height: 300px;
+    padding: 5px;
+  }
+  
+  .donut-chart,
+  .bar-chart {
+    height: 220px;
+  }
+  
+  /* Leaderboard adjustments */
+  .leaderboard-content {
+    padding: 10px;
+  }
+  
+  .leaderboard-item {
+    font-size: 12px;
+  }
+  
+  /* Footer adjustments */
+  div[style*="fontFamily: \"ubutnu\""] {
+    font-size: 12px !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  div[style*="fontFamily: \"ubutnu\""] img {
+    margin: 0 10px !important;
+  }
+}
+  
+  .leaderboard-item {
+    padding: 10px;
+  }
+  
+  .rank {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .store-name {
+    font-size: 14px;
+  }
+  
+  .score {
+    font-size: 14px;
+  }

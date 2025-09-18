@@ -1,0 +1,334 @@
+/* Additional Interactive CSS Styles */
+
+/* Chart Type Inner styling */
+.chart-type-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  color: #555555;
+  transition: all 0.3s ease;
+}
+
+.chart-type.active .chart-type-inner {
+  color: #00A591;
+}
+
+/* Filters button and popup */
+.filters-container {
+  position: relative;
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+.filters-button {
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid #E4E4E4;
+  border-radius: 4px;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555555;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.filters-button:hover {
+  border-color: #00A591;
+  color: #00A591;
+}
+
+.active-filter-indicator {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00A591;
+}
+
+.filters-popup {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 200px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+  z-index: 100;
+  animation: fadeIn 0.3s ease;
+}
+
+.filters-popup h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.filter-option {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #555555;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.filter-option:hover {
+  background-color: rgba(0, 165, 145, 0.05);
+  color: #00A591;
+}
+
+.filter-option.active {
+  background-color: rgba(0, 165, 145, 0.1);
+  color: #00A591;
+  font-weight: 500;
+}
+
+/* Chart Options Toggle */
+.chart-options-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.toggle-options-button, .show-options-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #777777;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.toggle-options-button:hover, .show-options-button:hover {
+  background-color: #F5F5F5;
+  color: #333333;
+}
+
+.show-options-button {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  z-index: 10;
+}
+
+/* Loading States */
+.loading-spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #FFFFFF;
+  animation: spin 0.8s linear infinite;
+  margin-left: 8px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.save-button.saved {
+  background-color: #4CAF50;
+}
+
+.chart-loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  backdrop-filter: blur(2px);
+  border-radius: 6px;
+}
+
+.chart-loading-overlay .loading-spinner {
+  width: 40px;
+  height: 40px;
+  border-width: 3px;
+  border-top-color: #00A591;
+  margin-bottom: 10px;
+}
+
+.chart-loading-overlay p {
+  color: #555555;
+  font-size: 14px;
+}
+
+/* Leaderboard */
+.leaderboard-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease;
+}
+
+.leaderboard-panel {
+  width: 500px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.leaderboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #E4E4E4;
+}
+
+.leaderboard-header h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333333;
+  margin: 0;
+}
+
+.close-leaderboard {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #777777;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.close-leaderboard:hover {
+  color: #333333;
+}
+
+.leaderboard-content {
+  padding: 15px;
+}
+
+.leaderboard-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #F5F5F5;
+  transition: background-color 0.2s ease;
+}
+
+.leaderboard-item:hover {
+  background-color: #F9F9F9;
+}
+
+.leaderboard-item:last-child {
+  border-bottom: none;
+}
+
+.rank {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #00A591;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 15px;
+}
+
+.leaderboard-item:nth-child(1) .rank {
+  background-color: #FFD700; /* Gold */
+  color: #333333;
+}
+
+.leaderboard-item:nth-child(2) .rank {
+  background-color: #C0C0C0; /* Silver */
+  color: #333333;
+}
+
+.leaderboard-item:nth-child(3) .rank {
+  background-color: #CD7F32; /* Bronze */
+  color: #FFFFFF;
+}
+
+.store-name {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.score {
+  font-size: 18px;
+  font-weight: 600;
+  color: #00A591;
+}
+
+/* Metric section */
+.metric-section {
+  display: flex;
+}
+
+.leaderboard-indicator {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  margin-left: 6px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
+}
+
+.show-leaderboard.active {
+  background-color: #007767;
+}

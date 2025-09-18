@@ -1,0 +1,41 @@
+.entirefooter {
+  margin-left: 65vh;
+  display: 'flex';
+  margin-bottom: 3px;
+}
+
+.copyrightimg {
+  height: 20px;
+  width: 20px;
+  margin-top: 1.2vw;
+  margin-bottom: 4vw;
+}
+
+.footerparttwo {
+  margin-left: 95vh !important;
+  display: 'flex' !important;
+}
+
+.etapimg {
+  height: 13px;
+  width: 13px;
+  margin-top: 1.2vw;
+  margin-bottom: 8vw;
+  margin-left: 20vw;
+}
+
+.copyrighttextimg {
+  font-family: "ubuntu", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 2.5vw;
+  letter-spacing: normal;
+  text-align: right;
+  color: grey;
+}
+.footermaincontainer
+{
+  margin-left:65vh;
+  display:flex;
+  margin-bottom:3px;
+}

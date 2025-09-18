@@ -1,0 +1,200 @@
+.donut-chart-container {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 20px;
+  height: auto;
+  width: 100%;
+  background-color: white;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.chart-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.chart-close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #888888;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+.chart-close-btn:hover {
+  color: #333333;
+}
+
+/* Static Donut Chart */
+.static-donut-wrapper {
+  position: relative;
+  height: 250px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.static-donut {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.donut-segment {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* Create the donut segments */
+.segment1 {
+  background: conic-gradient(#00A696 0deg, #00A696 120deg, transparent 120deg);
+}
+
+.segment2 {
+  background: conic-gradient(transparent 120deg, #37AD9E 120deg, #37AD9E 240deg, transparent 240deg);
+}
+
+.segment3 {
+  background: conic-gradient(transparent 240deg, #007F78 240deg, #007F78 360deg);
+}
+
+.donut-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  height: 75%;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.donut-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.donut-label {
+  font-size: 14px;
+  color: #666666;
+  margin-top: 4px;
+}
+
+/* Custom data values */
+.donut-data-values {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.data-value {
+  position: absolute;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.data-value-left {
+  top: 45%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.data-value-right {
+  top: 45%;
+  right: 25%;
+  transform: translate(50%, -50%);
+}
+
+.data-value-bottom {
+  bottom: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Legend styles */
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.legend-color {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+  border-radius: 2px;
+}
+
+.legend-label {
+  font-size: 12px;
+  color: #333333;
+}
+
+.legend-color.all-stores {
+  background-color: #00A696;
+}
+
+.legend-color.week-1 {
+  background-color: #37AD9E;
+}
+
+.legend-color.week-2 {
+  background-color: #007F78;
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+  .static-donut-wrapper {
+    height: 200px;
+  }
+  
+  .static-donut {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .donut-value {
+    font-size: 16px;
+  }
+  
+  .donut-label {
+    font-size: 12px;
+  }
+}

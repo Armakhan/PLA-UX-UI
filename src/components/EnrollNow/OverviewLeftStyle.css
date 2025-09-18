@@ -1,0 +1,63 @@
+.chartsheading {
+  width: 71px;
+  height: 18px;
+  flex-grow: 0;
+  font-family: "ubuntu", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.66px;
+  text-align: left;
+  color: #096331;
+  margin-top: 1vh !important;
+  margin-bottom: 1vh !important;
+}
+
+.overviewleftstyle {
+  padding-left: 3%;
+}
+
+.flexdisplaytwo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.containerbtn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 1vh;
+  padding: 0 12px;
+  border-radius: 6px;
+}
+
+.containerbtnone {
+  width: 30px;
+  height: 30px;
+  border: none;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-left: 0vh;
+  margin-bottom: 1vh;
+  margin-right: 1vh;
+  margin-top: 1vh;
+  padding: 0 12px;
+  border-radius: 6px;
+}
+
+.allbtncontainer {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,64 @@
+.logomaindiv
+{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  flex:1;
+}
+.verticaldivider 
+{
+  width: 4px;
+  height: 100%;
+  background-color: #f1e6e6; 
+}
+
+.paralogodiv
+{
+  display:'flex';
+  flex-wrap: wrap;
+}
+.dividerclss
+{
+  color:gray;
+  font-size:35px;
+  margin-top:1px;
+  margin-left:1vw;
+  margin-bottom:20px;
+}
+.cpgeminiclss
+{
+  height:25px;
+  width:8vw;
+  margin-top:1.5vw;
+  margin-left:2vw;
+  justify-content:center;
+}
+.gameparaclss
+{
+  width: 14vh;
+  height: 4vh;
+  flex-grow: 0;
+  margin-left: 8vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #f5f5f5;
+}
+.sustainclsspara
+{
+  width: 87px;
+  height: 17px;
+  flex-grow: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #7ddd87;
+}

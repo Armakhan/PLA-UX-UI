@@ -1,0 +1,43 @@
+.RegisterPageStore {
+    background-color: #fff;
+    padding: 20px 20px 15px 20px;
+    font-family: 'ubuntu', sans-serif;
+    overflow-x: hidden;
+  }
+.Rectangle
+    {
+        width: 100%;
+        height: 100%;
+        padding: 3% 15% 3% 17%;
+        background-color: #ecffe0;
+    }
+.Frame-675 {
+      width: 100%;
+      height: 1115px;
+      padding: 10px 10px 10px 10px;
+      border-radius: 8px;
+      background-color: #fff;
+      margin-left:45px; 
+  }
+  .AccelerateH {
+    font-family: 'ubuntu', sans-serif;
+    font-size: 13px;
+    letter-spacing: -0.28px;
+    text-align: center;
+    margin-right: 17%;
+    color: #3d3d3d;
+  }
+  .container {
+    display: flex;
+    align-items: center;  
+  }
+.gamificationh{
+    margin-top: 2px;
+    margin-left: -4%;
+    height: 2px;  
+}
+.gamifications{
+  margin-top: -38px;
+  height: 2px;
+  color:#48c655;
+}

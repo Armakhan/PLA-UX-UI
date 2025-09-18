@@ -1,0 +1,406 @@
+.dashboard-container {
+  width: 50%;
+  padding: 5px;
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  background-color: #F7F7F7;
+  overflow: hidden;
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #E4E4E4;
+  background-color: #FFFFFF;
+  height: 60px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #00A591; /* Updated to match UX teal color */
+  font-weight: 600;
+  padding: 5px 10px;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.back-button:hover {
+  color: #007767; /* Darker shade for hover state */
+}
+
+.dashboard-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 10px;
+  color: #333333;
+}
+
+.tabs-container {
+  display: flex;
+  border-bottom: 1px solid #E4E4E4;
+  margin-top: 0px;
+  background-color: #FFFFFF;
+}
+
+.tab {
+  padding: 15px 20px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  color: #555555;
+  transition: all 0.3s ease;
+  border-bottom: 3px solid transparent;
+}
+
+.tab:hover {
+  background-color: #F9F9F9;
+}
+
+.tab.active {
+  border-bottom: 3px solid #00A591; /* Updated to match UX teal color */
+  color: #00A591;
+  font-weight: 600;
+}
+
+.metrics-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 15px 15px 10px;
+  align-items: center;
+}
+
+.metric {
+  margin-left: 25px;
+  color: #555555;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.metric span {
+  font-weight: 600;
+  color: #00A591; /* Updated to match UX teal color */
+  margin-left: 5px;
+}
+
+.show-leaderboard {
+  background-color: #00A591; /* Updated to match UX teal color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 18px;
+  margin-left: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 165, 145, 0.3);
+}
+
+.show-leaderboard:hover {
+  background-color: #007767; /* Darker shade for hover */
+}
+
+.charts-panel {
+  margin: 10px 7px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.chart-options {
+  width: 10px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  padding: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.chart-options h2 {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #333333;
+  font-weight: 600;
+  position: relative;
+}
+
+.chart-options h2:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 40px;
+  height: 3px;
+  background-color: #00A591; /* Brand color underline */
+}
+
+.chart-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.chart-type {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #E4E4E4;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-color: #FFFFFF;
+}
+
+.chart-type:hover {
+  border-color: #00A591; /* Brand color */
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.chart-type.active {
+  border-color: #00A591; /* Updated to match UX teal color */
+  background-color: rgba(0, 165, 145, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 165, 145, 0.2);
+}
+
+.field-selector {
+  margin-bottom: 22px;
+}
+
+.field-label {
+  font-size: 14px;
+  color: #444444;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.field-dropdown {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #E4E4E4;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333333;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.field-dropdown:hover, .field-dropdown:focus {
+  border-color: #00A591;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 165, 145, 0.1);
+}
+
+.save-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #00A591; /* Updated to match UX teal color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.save-button:hover {
+  background-color: #007767;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.charts-display {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+}
+
+.donut-chart-container, 
+.bar-chart-container {
+  flex: 1;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  padding: 16px;
+  height: 320px; /* reduced height */
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.donut-chart-container:hover, 
+.bar-chart-container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.donut-chart-title, 
+.bar-chart-title {
+  font-size: 18px;
+  color: #333333;
+  text-align: left;
+  margin-bottom: 20px;
+  font-weight: 600;
+  position: relative;
+}
+
+.donut-chart-title:after, 
+.bar-chart-title:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 30px;
+  height: 3px;
+  background-color: #00A591; /* Brand color underline */
+}
+
+.donut-chart, 
+.bar-chart {
+  height: 240px; /* reduced chart area */
+  width: 100%;
+}
+
+.donut-chart-wrapper {
+  position: relative;
+  height: 240px;
+}
+
+.donut-center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.donut-value {
+  font-size: 24px;
+  font-weight: 700;
+  color: #00A591;
+}
+
+.donut-label {
+  font-size: 14px;
+  color: #555555;
+  margin-top: 5px;
+}
+
+.chart-legend {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #555555;
+}
+
+.legend-color {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.legend-color.all-stores {
+  background-color: #00A591;
+}
+
+.legend-color.week-1 {
+  background-color: #007767;
+}
+
+.legend-color.week-2 {
+  background-color: #3EB9AB;
+}
+
+.footer {
+  margin-top: 20px;
+  padding: 15px;
+  border-top: 1px solid #E4E4E4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #777777;
+  background-color: #FFFFFF;
+}
+
+.chart-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.2s ease;
+}
+
+.chart-type:hover .chart-icon {
+  transform: scale(1.1);
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #777777;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.close-button:hover {
+  color: #333333;
+  background-color: #F5F5F5;
+}
+
+/* Add animations for charts */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.donut-chart-container, 
+.bar-chart-container {
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* Add smooth transitions for interactive elements */
+.tab, 
+.chart-type, 
+.field-dropdown, 
+.save-button, 
+.show-leaderboard,
+.back-button {
+  transition: all 0.3s ease;
+}

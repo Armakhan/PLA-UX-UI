@@ -1,0 +1,93 @@
+.progressheadingclass {
+    font-family: "ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #272936;
+}
+.locationstyle {
+    display: 'flex';
+    height: 15px;
+    margin-top: 3px;
+    margin-right: 2px;
+}
+.innerdivcontent {
+    margin-left: 3%;
+}
+.firstContent {
+    margin-left: 3%;
+}
+.progressbardiv {
+    display: flex;
+    align-items: center;
+}
+.progclss {
+    margin-bottom: 2px !important;
+}
+.thirdcontainer {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 4.5vh;
+    margin-left: 3vw;
+    padding: 2px;
+    padding-right: 2vw;
+    padding-bottom: 2vh;
+    height: fit-content;
+    width: fit-content;
+}
+.SecondContent {
+    margin-right: 5vw;
+    height: 41vh;
+    width: 65vh;
+}
+.customlinechartstyle {
+    height: 90%;
+    background: red;
+}
+.challengeenddate {
+    width: fit-content;
+    margin-top: 20px;
+    height: fit-content;
+    padding: 3px;
+    border-radius: 4px;
+    flex-grow: 0;
+    font-family: "ubuntu", sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #272936;
+    display: inline-block;
+    background: rgba(255, 202, 0, 0.27);
+}
+.progressbarstyle {
+    height: 2vh;
+    font-family: inherit;
+    font-size: 0;
+    width: 70%;
+}
+.addresscontainer {
+    display: flex;
+}
+.addressclss {
+    width: 316px;
+    height: 32px;
+    flex-grow: 0;
+    margin: 2px 0 0 8px !important;
+    font-family: "ubuntu", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-align: left;
+    color: #666;
+}

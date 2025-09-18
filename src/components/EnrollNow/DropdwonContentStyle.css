@@ -1,0 +1,46 @@
+.dropdownclss
+{
+  height: 3vw !important;
+  width: 100% !important;
+  justify-content: center !important;
+  align-items: center !important;
+  position: relative;
+}
+
+.xaxisdropdownclss
+{
+  height: 3vw !important;
+  width: 100% !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.marginstyle
+{
+  margin-left: 3vw;
+}
+
+.axisheading
+{
+  font-family: "ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.66px;
+  text-align: left;
+  color: #096331;
+  margin-top: 0.6vw !important;
+  margin-bottom: 0.6vw !important;
+}
+
+.previewbtnclss
+{
+  width: 101px;
+  height: 37px;
+  border:none;
+  margin: 25px 22.5px 0 258px;
+  padding: 10px 21px 9px;
+  border-radius: 6px;
+  /* background-color: #5bad80; */
+  margin-bottom: 1vw;
+}

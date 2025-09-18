@@ -1,0 +1,392 @@
+.headingpage {
+  display: "inline-block";
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 293px;
+  height: 28px;
+  flex-grow: 0;
+  margin: 0 450px 0 0;
+  font-family: 'ubuntu', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.84px;
+  text-align: left;
+  color: #272936;
+}
+
+.dialogstyle {
+  width: 50vw;
+}
+
+.p-dialog .p-dialog-header {
+  border-bottom: 0 none;
+  background: #f8e8b6 !important;
+  color: #343a40;
+  padding: 1.5rem;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.newchallengeimgstyle {
+  height: 15px;
+  width: 15px;
+  justify-content: center;
+}
+
+.formgeneralstyle {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'ubuntu', sans-serif;
+}
+
+.modal .p-dialog-content {
+  overflow-y: auto;
+}
+
+.modal ::-webkit-scrollbar {
+  width: 1px !important;
+  background-color: #f5f5f5;
+}
+
+.modal ::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.modal ::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.modal ::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+.modal {
+  z-index: 3;
+  position: absolute !important;
+  margin-left: 20%;
+  inset: 40px !important;
+  border: 1px solid rgb(21, 20, 20) !important;
+  background: rgb(255, 255, 255) !important;
+  overflow: auto !important;
+  border-radius: 6px !important;
+  outline: none !important;
+  width: 60% !important;
+  padding: 0px !important;
+  box-sizing: 40% !important;
+}
+
+.modaldivstyle {
+  background-color: #f5e9c6;
+  height: 70px;
+
+}
+
+.submitclearbtn {
+  align-items: 'right';
+  justify-content: 'right';
+  margin-left: 70%;
+}
+
+.textfieldstylegreen {
+  border: 1px solid #cdd3d1 !important;
+  color: #009b45 !important;
+  font-family: 'ubuntu', sans-serif;
+  height: 40px;
+  font-size: 76px;
+  width: 100%;
+}
+
+.textfieldstyle {
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  font-family: 'ubuntu', sans-serif;
+  border-radius: 6px;
+  border: solid 1px #cdd3d1;
+  background-color: #fff;
+}
+
+.winnerdatevaliderror {
+  color: red;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 0px;
+}
+
+.commonerrrstyle {
+  color: red;
+}
+
+.awarderrormsg {
+  color: red;
+  position: relative;
+  margin-top: 11px;
+  white-space: nowrap;
+}
+
+.dateerrorstyle {
+  color: red;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.textfieldstyleenrtrymadeby {
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  color: var(--warm-grey);
+  font-family: 'ubuntu', sans-serif;
+  border-radius: 6px;
+  border: solid 1px #cdd3d1;
+  background-color: #dbdbdb !important;
+}
+
+.textfieldstylecalendertwo {
+  height: 40px;
+  width: 80% !important;
+  font-size: 16px;
+  font-family: 'ubuntu', sans-serif;
+  border-radius: 6px;
+  border: solid 1px #cdd3d1;
+  background-color: #fff;
+}
+
+.textfieldstylecalendrone {
+  height: 40px;
+  width: 80% !important;
+  font-size: 16px;
+  font-family: 'ubuntu', sans-serif;
+  border-radius: 6px;
+  border: solid 1px #cdd3d1;
+  background-color: #fff;
+  margin-right: 30px;
+}
+
+.textareastyle {
+  font-size: 16px;
+  width: 100%;
+  height: 100px !important;
+}
+
+.labelStyleone {
+  width: 229px;
+  height: 22.2px;
+  flex-grow: 0;
+  margin-bottom: 0px !important;
+  font-family: 'ubuntu', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  color: var(--black);
+}
+
+.btncontainer {
+  display: flex;
+  margin-top: 10%;
+  margin-left: 70%;
+}
+
+.labelStyle {
+  width: 116px;
+  height: 24px;
+  margin-bottom: 0px !important;
+  flex-grow: 0;
+  font-family: 'ubuntu', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-stretch: normal;
+  text-align: left;
+  color: var(--black);
+}
+
+.labelStyleawards {
+  width: 116px;
+  height: 24px;
+  flex-grow: 0;
+  font-family: 'ubuntu', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 1px !important;
+  font-stretch: normal;
+  text-align: left;
+  color: var(--black);
+}
+
+.labelStylewinner {
+  width: 116px;
+  height: 24px;
+  flex-grow: 0;
+  font-family: 'ubuntu', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: var(--black);
+  display: contents !important;
+}
+
+.calendercontainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.clnderclsstwo {
+  width: 140px;
+}
+
+.clnderclss {
+  margin-right: 20px;
+  width: 140px;
+}
+
+.labelalignmentwithfield {
+  display: 'flex';
+  flex-direction: 'row';
+  justify-content: 'space-between';
+  margin-top: 20px;
+}
+
+.labelalignmentwithfieldtwo {
+  display: 'flex';
+  flex-direction: 'row';
+  justify-content: 'space-between';
+  margin-top: 10px;
+}
+
+.labelalignmentwithfieldthree {
+  display: 'flex';
+  flex-direction: 'row';
+  justify-content: 'space-between';
+  margin-top: 5px;
+}
+
+.smalltextfielddate {
+  width: 60% !important;
+  margin-left: 12px;
+  border: 1px solid #cdd3d1 !important;
+  border-radius: 5px;
+}
+
+.smalltextfieldwinnerdate {
+  width: 30% !important;
+  margin-left: 10px;
+  border: 1px solid #cdd3d1 !important;
+  border-radius: 5px;
+}
+
+.smalltextfield {
+  width: 40% !important;
+  margin-left: 5px;
+  border: 1px solid #cdd3d1 !important;
+  border-radius: 5px;
+}
+
+.smalltextfieldsecndrunner {
+  width: 40% !important;
+  margin-left: 5px;
+  border: 1px solid #cdd3d1 !important;
+  border-radius: 5px;
+}
+
+.smalltextfieldwinner {
+  height: 40px;
+  width: 40% !important;
+  margin-left: 5px;
+  border: 1px solid #cdd3d1 !important;
+  border-radius: 5px;
+}
+
+.btnclssone {
+  color: #009b45;
+  font-family: 'ubuntu', sans-serif;
+  font-size: 14px;
+  height: 40px;
+  margin-right: 5px;
+  width: 100px !important;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 2px solid #009b45;
+}
+
+.btnclsstwo {
+  color: #fff;
+  font-family: 'ubuntu', sans-serif;
+  font-size: 16px;
+  height: 40px;
+  width: 80px;
+  border-radius: 5px;
+  margin-left: 5px;
+  border: 1px solid gray;
+  background-color: #009b45;
+}
+
+.p-button.p-button-icon-only {
+  width: 25px !important;
+}
+
+.toastcontainer {
+  color: black !important;
+  /* background: #bfe8cd !important; */
+  width: 600px !important;
+  z-index: 3;
+}
+
+.Toastify__toast-theme--colored.Toastify__toast--success {
+  color: black !important;
+  background: #daf8df !important;
+}
+
+.Toastify__toast {
+  position: relative;
+  min-height: var(--toastify-toast-min-height);
+  /* box-sizing: border-box; */
+  /* margin-bottom: 1rem; */
+  padding: 8px;
+  border-radius: 4px;
+  /* box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1), 0 2px 15px 0 rgba(0, 0, 0, 0.05); */
+  display: flex;
+  /* justify-content: space-between; */
+  max-height: var(--toastify-toast-max-height);
+  overflow: hidden;
+  font-family: var(--toastify-font-family);
+  cursor: default;
+  justify-content: center;
+  direction: ltr;
+  z-index: 0;
+}
+
+.Toastify__toast-container {
+  z-index: var(--toastify-z-index);
+  -webkit-transform: translate3d(0, 0, var(--toastify-z-index));
+  position: fixed;
+  padding: 4px;
+  width: 50% !important;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.p-inputtexttwo {
+  border-radius: 5px !important;
+  border: 1px solid black !important;
+  border-right: #fff !important;
+}
+
+.Toastify__toast-icon {
+  margin-inline-end: 10px;
+  width: 0px !important;
+  flex-shrink: 0;
+  display: flex;
+}
+
+.Toastify__close-button>svg {
+  fill: currentColor;
+  height: 0px !important;
+  width: 0px !important;
+}
+

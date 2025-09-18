@@ -1,0 +1,71 @@
+/* Additional Styles to prevent content overflow and duplication */
+
+/* Prevent content from overflowing */
+body {
+  overflow-x: hidden;
+}
+
+/* Make dashboard container full width but prevent overflow */
+.dashboard-container {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+/* Prevent footer duplication */
+.dashboard-container > div[style*="fontFamily: \"ubutnu\""] {
+  margin-top: 20px;
+}
+
+/* Ensure charts scale properly */
+.charts-display {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.donut-chart-container, 
+.bar-chart-container {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Hide any unnecessary elements */
+.filters-button,
+.filters-container,
+.filters-popup,
+.filter-popup {
+  display: none !important;
+}
+
+/* Handle ultra-small screens */
+@media (max-width: 375px) {
+  .tab {
+    padding: 6px 8px;
+    font-size: 11px;
+  }
+  
+  .metric {
+    font-size: 11px;
+  }
+  
+  .chart-options {
+    padding: 8px;
+  }
+  
+  .field-label {
+    font-size: 11px;
+  }
+  
+  .donut-chart-container, 
+  .bar-chart-container {
+    height: 280px;
+  }
+  
+  .donut-chart,
+  .bar-chart {
+    height: 200px;
+  }
+}

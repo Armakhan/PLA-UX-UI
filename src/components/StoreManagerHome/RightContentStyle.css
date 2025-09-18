@@ -1,0 +1,28 @@
+.rightcontentheading
+{
+    width: 301px;
+    height: 23px;
+    flex-grow: 0;
+    font-family: "ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #272936;
+}
+.runimgclss
+{
+    height:10vw;
+    width:14vw;
+    margin-top:18vw;
+    margin-left:10vw;
+    position:fixed;
+    justify-content:center;
+}
+.maincontainer
+{
+    padding: 3vh;
+}

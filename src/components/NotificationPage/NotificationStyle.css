@@ -1,0 +1,204 @@
+.notification-header {
+    display: flex;
+}
+.heading-notification
+{
+  flex-grow: 0;
+  font-family: "Ubuntu",sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.66px;
+  text-align: left;
+  color: #272936;
+  margin-left: 10px;
+}
+.notification-content
+{
+    height: 60%;
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 0.2px #9999;
+}
+.txtcontent
+{
+    margin-left: 5%;
+    width: 100%;
+}
+.notification-body
+{
+  border: solid 0.2px var(--warm-grey);
+}
+.date-style{
+    margin-top: 0px;
+    margin-bottom: -6px;
+    font-size: 14px;
+    color: #999999;
+}
+.parabuttonstyle
+{
+    border: none;
+    font-family: "Ubuntu-Regular",sans-serif;
+    color: #2e7ff9;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    background: transparent;
+}
+.parabuttonstyleReviewnow
+{
+    border: none;
+    font-family: "Ubuntu-Regular",sans-serif;
+    color: #2e7ff9;
+    font-size: 15px;
+    font-weight: 600;
+    background: transparent;
+    margin-left: -5px;
+    cursor: pointer;
+}
+.challengename-style{
+    margin-bottom: 0px !important;
+    margin-top: 0px!important;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 500;
+    display: inline;
+}
+.acceptbtn
+{
+    background-color: #308622;
+    border: none;
+    margin-left: 10%;
+    border-radius: 15%;
+    font-family: "Ubuntu",sans-serif;
+    color: #fff;
+    height: 26px;
+    width: 61px;
+}
+.acceptdeclinebtncontainer
+{
+    margin-left: 41%;
+    margin-top: 0%;
+}
+.declinebtn
+{
+    background-color: #fff;
+    border-radius: 13%;
+    font-family: "Ubuntu",sans-serif;
+    color: #666666;
+    height: 26px;
+    width: 61px;
+    border: 1px solid #999999;
+    margin-left: 5px; 
+}
+.mark-all-read {
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 14px;
+    color: #308622;
+    background-color: #fff;
+    flex-wrap: nowrap;
+    border: none;
+    font-weight: 500;
+    margin-left: 35%;
+}
+.paragrphstyle
+{
+    margin-bottom: 0px !important;
+    margin-top: 0px!important;
+    font-family: "Ubuntu",sans-serif;
+}
+.fontweight-display{
+    font-weight: 500;
+    display: inline;
+}
+.display{
+    display: inline;
+}
+.notification
+{
+    height: 100%;
+    width: 34%;
+    padding: 1%;
+    border: 1px solid #ccc;
+}
+.launchchallengeimgstyle
+{
+    margin-left: -2%;
+    margin-right: 2%;
+    width: 43.2px;
+    margin-top: -10px;
+    height: 43.2px;
+    flex-grow: 0;
+    border-radius: 50%;
+    background-color: #308622;
+    
+}
+.enrolledinchallnge
+{
+  margin-bottom: -19px !important;
+  margin-top: 0px  !important;
+  width: 356px;
+  height: 36px;
+  flex-grow: 0;
+  font-weight: 500;
+  font-family: 'ubuntu',sans-serif;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  text-align: left;
+  color: var(--black);
+  display: inline;
+  margin-left: 0px;
+}
+.initials
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.avatar{
+    border-radius: 50%;
+    color: black;
+    height: 43.2px;
+    width: 43.2px;
+    margin-top:-10px;
+}
+.avatartwo{
+    border-radius: 50%;
+    color: black;
+    height: 43.2px;
+    width: 43.2px;
+    margin-top:-11px;
+}
+.your-card-container {
+    justify-content: right;
+    float: right;
+    height: 520px;
+    overflow-y:"auto";
+    margin-right: 1%;
+  }
+  .avatarmargin{
+    margin-top: -17px;
+  }
+  /* Customize the following media query as per your design requirements */
+  @media screen and (max-width: 768px) {
+    .your-card-container {
+      flex-direction: column;
+    }
+  }
+  .p-overlaypanel {
+    background: #ffffff;
+    color: #495057;
+    border: 0 none;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    margin-top: 1.5%;
+    margin-left: 21%;
+    overflow-y: auto;
+}
+
+

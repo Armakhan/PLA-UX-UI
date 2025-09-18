@@ -1,0 +1,37 @@
+.rightprofileheading
+{
+  margin-top: 2% !important;
+  margin-bottom: 2px !important;
+  flex-grow: 0;
+  font-family: "ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.28px;
+  text-align: left;
+  color: #308622;
+}
+.linechartcontainer
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 3vh;
+    padding: 2px;
+    padding-right: 0.5vw;
+    padding-bottom: 0.2vh;
+    height: fit-content;
+    width: fit-content;
+}
+.profilerightcontainer
+{
+  margin-top: 0.5%;
+  margin-left: 1.5%;
+  margin-right: 0.5%;
+  padding: 0.5%;
+  width: 90%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #ffff;
+}

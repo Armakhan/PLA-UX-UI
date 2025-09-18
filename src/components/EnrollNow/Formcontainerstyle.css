@@ -1,0 +1,80 @@
+.formheading {
+    margin-top: 2vh !important;
+    color: #050506;
+    font-family: "ubuntu", sans-serif;
+    font-size: 20px;
+}
+
+.formtextfieldstyle {
+    font-family: "ubuntu", sans-serif;
+    margin-bottom: 6% !important;
+    width: 30vw !important;
+    height: 6vh !important;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.formbtncontainer {
+    display: 'flex';
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 3vh;
+}
+
+.textfieldtwo {
+    margin-top: 5% !important;
+}
+
+.submitdatabtn {
+    background-color: #7bb796;
+    font-size: 18px;
+    color: #fff;
+    margin-right: 2vh;
+    border: 1px solid #009b45;
+    border-radius: 5px;
+    height: 3vw;
+    width: 12vw;
+}
+
+.formerr {
+    color: red;
+    position: fixed;
+    margin-top: -1.8%;
+    font-size: 14px;
+}
+
+.cleardatabtn {
+    font-size: 18px;
+    margin-right: 2vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 3vw;
+    width: 12vw;
+    background-color: #ececec;
+}
+
+.formcontainer {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    padding: 1vh 3vh 3vh 3vh;
+    margin: 3vh 4vh 4vh 2vh;
+}
+
+.formhistorybtn {
+    display: flex;
+}
+
+.historybtn {
+    border: none;
+    background: none;
+    color: #2e7ff9;
+    margin-left: 11vw;
+    text-decoration: underline;
+    font-family: "ubuntu", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+}

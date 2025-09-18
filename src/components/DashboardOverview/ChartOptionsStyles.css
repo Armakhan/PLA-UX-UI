@@ -1,0 +1,169 @@
+/* Additional styling for chart options and legends */
+.field-selector {
+  margin-bottom: 20px;
+}
+
+.field-label {
+  font-weight: 500;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.field-dropdown {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.save-button {
+  background-color: #00A591;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: 500;
+  width: 100%;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.save-button:hover {
+  background-color: #008f7d;
+}
+
+/* Chart type selector icons */
+.chart-type {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.chart-type.active {
+  background-color: #e0f7f4;
+  border: 1px solid #00A591;
+}
+
+.chart-type-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+}
+
+.chart-type.active .chart-type-icon {
+  color: #00A591;
+}
+
+/* Legend styling */
+.chart-legend {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.legend-color-box {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.legend-text {
+  font-size: 12px;
+  color: #555;
+}
+
+/* Week color boxes */
+.legend-color-box.week-1 {
+  background-color: #00A591;
+}
+
+.legend-color-box.week-2 {
+  background-color: #007767;
+}
+
+.legend-color-box.week-3 {
+  background-color: #3EB9AB;
+}
+
+.legend-color-box.week-4 {
+  background-color: #80CEC5;
+}
+
+/* Donut chart center text */
+.donut-center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.donut-value {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+
+.donut-label {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Footer styling */
+.dashboard-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+.powered-by {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.copyright {
+  font-size: 12px;
+  color: #888;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .charts-panel {
+    flex-direction: column;
+  }
+  
+  .chart-options-sidebar {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  
+  .chart-container {
+    width: 100%;
+  }
+}

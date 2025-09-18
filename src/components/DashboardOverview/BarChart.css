@@ -1,0 +1,93 @@
+.bar-chart-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 20px;
+  height: auto;
+  width: 100%;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.chart-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.chart-close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #888888;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+.chart-close-btn:hover {
+  color: #333333;
+}
+
+.bar-chart-wrapper {
+  height: 220px; /* reduced from 300px */
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Legend styles */
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.legend-color {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+  border-radius: 2px;
+}
+
+.legend-label {
+  font-size: 12px;
+  color: #333333;
+}
+
+.legend-color.week-1 {
+  background-color: #178036;
+}
+
+.legend-color.week-2 {
+  background-color: rgba(23, 140, 61, 0.98);
+}
+
+.legend-color.week-3 {
+  background-color: #33b569;
+}
+
+.legend-color.week-4 {
+  background-color: #7FD4A4;
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+  .bar-chart-wrapper {
+    height: 250px;
+  }
+}

@@ -1,0 +1,275 @@
+.profilepagecontainer {
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0.5%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    width: 96%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffff;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.profileleftcontainer {
+    height: 100%;
+    width: 50%;
+    margin-right: 10%;
+}
+
+.displayflex {
+    display: flex;
+}
+
+.whiteborder {
+    border-color: #fff !important;
+}
+
+.profilebackbutton {
+    background: #fff;
+    color: #0070ad;
+    border: none;
+    outline: none;
+    display: flex;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.bckbtnprofilecontainer {
+    display: flex !important;
+    width: 100% !important;
+    align-items: center !important;
+}
+
+.profilepgheading {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 5vh;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0070ad;
+}
+
+.profileimg {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 2%;
+}
+
+.dividerStyle {
+    margin-left: 8%;
+    margin-right: 1%;
+    color: #525151;
+    height: 100%;
+}
+
+.namedetails {
+    height: 20%;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 6%;
+}
+
+.profilelefttablecontainer {
+    margin-top: 2%;
+}
+
+.tablestylehead {
+
+    padding-right: 6vw;
+    margin-left: 20% !important;
+    width: 80px;
+    height: 16px;
+    flex-grow: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-align: left;
+    color: #919392;
+}
+
+.profilelefttable {
+    width: 160%;
+    height: 60%;
+}
+
+.imgsidename {
+    margin-top: 0% !important;
+    margin-bottom: 1% !important;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.66px;
+    text-align: left;
+    color: var(--black);
+}
+
+.imgsidelocation {
+    margin-top: 2% !important;
+    margin-bottom: 0% !important;
+    flex-grow: 0;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 10;
+    letter-spacing: -0.28px;
+    text-align: left;
+    color: #999999!important;
+}
+
+.locstyle {
+    margin-top: 3px;
+    height: 10px;
+    width: 8px;
+    margin-right: 2px;
+}
+
+.valuerow {
+    margin-bottom: 2% !important;
+}
+
+.tablestylevalue {
+    width: 43px;
+    height: 19px;
+    flex-grow: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 10px;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: var(--black);
+}
+
+.personaldetailhead {
+    font-family: 'ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    margin-bottom: 0;
+    line-height: normal;
+    letter-spacing: 0.54px;
+    text-align: left;
+    color: var(--black);
+}
+
+.dashbordbtncontain {
+    margin-left: 65%;
+}
+
+.dashboardbtn {
+    background: #009b45;
+    border: none;
+    width: 13vw;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 40px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: 'ubuntu', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.imgsidemail {
+    margin-top: 1% !important;
+    margin-bottom: 1% !important;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.54px;
+    text-align: left;
+    color: #4c6cbd;
+}
+
+.footercopyrighttext {
+    margin-top: 0% !important;
+    margin-bottom: 0% !important;
+    font-family: "ubutnu", sans-serif;
+    font-size: 16px;
+    text-align: right;
+    color: var(--warm-grey);
+}
+
+.entirefooter {
+    font-family: "Ubutnu", sans-serif, ;
+    font-size: 14px;
+    margin-bottom: 0px !important;
+    color: gray;
+    display: flex;
+    height: fit-content;
+    background: #009b45;
+
+}
+
+.imgpoweredbyetap {
+    margin-left: 45%;
+    height: 20px;
+    width: 85px;
+}
+
+.copyrightimg {
+    margin-top: 0px;
+    margin-left: 22%;
+    height: 20px;
+    width: 15px;
+}
+
+.toppestrow {
+    width: 100%;
+    display: flex;
+    margin-bottom: 3px;
+}
+
+.imgsidedetails {
+    align-items: left;
+    display: flex
+}
+
+.profileimg-container {
+    position: relative;
+    display: inline-block;
+}
+
+.camera-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.camera-button img {
+    width: 17px;
+    background: #fff;
+    margin-top: 12vh;
+    height: 17px;
+    padding: 1px;
+    border-radius: 50%;
+    border: 1px solid #919392;
+}
+
+.loadingstyle{
+    margin-left:50%;
+    margin-top:10%; 
+    margin-bottom:20%;
+}

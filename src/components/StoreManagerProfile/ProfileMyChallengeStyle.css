@@ -1,0 +1,94 @@
+.completedchallenge {
+  color: #308c21;
+  font-family: "ubuntu", sans-serif;
+  font-size: 36px;
+  padding-right: 5% !important;
+  padding-bottom: 4% !important;
+  justify-content: center !important;
+  background: #f0ffef;
+  width: 78%;
+  margin-left: 0.5vw;
+  border: solid 1px #91dc85;
+  border-radius: 6px;
+  height: fit-content;
+}
+
+.ongoingchallenge {
+  color: #308c21;
+  font-family: "ubuntu", sans-serif;
+  font-size: 36px;
+  padding-right: 5% !important;
+  padding-bottom: 4% !important;
+  justify-content: center !important;
+  background: #f0ffef;
+  width: 81%;
+  height: fit-content;
+  margin-left: 1vw;
+  border: solid 1px #91dc85;
+  border-radius: 6px;
+}
+
+.mychallengeheading {
+  margin-left: 14%;
+  margin-top: 0px !important;
+  margin-bottom: 15px !important;
+  flex-grow: 0;
+  font-family: "ubuntu", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.28px;
+  text-align: left;
+  color: #308622;
+}
+
+.entireprofilechllnge {
+  width: fit-content;
+  height: fit-content;
+  margin-left: 9%;
+}
+
+.challengecountstyle {
+  margin-top: 0px !important;
+  margin-bottom: 5px !important;
+  margin-left: 19%;
+}
+
+.mychallengecontainer {
+  width: fit-content;
+  height: 100%;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 9%;
+}
+
+.challengestypestyle {
+  flex-grow: 0;
+  margin: 8px 0 0;
+  font-family: "ubuntu", sans-serif;
+  font-size: 10px !important;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  text-align: center;
+  color: black !important;
+}
+
+.onedigitparastyle {
+  margin-top: 1px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+.twodigitparastyle {
+  margin-top: 1px;
+  margin-left: 4px;
+  margin-bottom: 0px;
+}

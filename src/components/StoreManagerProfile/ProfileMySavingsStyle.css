@@ -1,0 +1,119 @@
+.mysavingscontainer {
+  width: fit-content;
+}
+
+.savingsmeasure {
+  display: flex;
+}
+
+.numbercontainer {
+  height: 10vh;
+  width: 10vh;
+  align-items: center;
+  justify-content: center;
+  padding: 3.5vh;
+  border-radius: 50%;
+  background: #c3ffba;
+
+}
+
+.numbercontainertwo {
+  height: 10vh;
+  width: 10vh;
+  padding: 3.5vh;
+  border-radius: 50%;
+  background: #c3ffba;
+  margin: 0px 20px 0px 20px;
+}
+
+.numbercontainerthree {
+  height: 10vh;
+  width: 10vh;
+  padding: 3.5vh;
+  border-radius: 50%;
+  background: #c3ffba;
+  margin: 0px 20px 0px 12px;
+}
+
+.unitstyle {
+  margin: 0px 24px 0px 4px;
+  font-family: "ubuntu", sans-serif;
+  font-size: 18px;
+  letter-spacing: -0.28px;
+  text-align: left;
+  color: var(--black);
+}
+
+.unitstyletwo {
+  margin: 0px 30px 0px 29px;
+  font-family: "ubuntu", sans-serif;
+  font-size: 18px;
+  letter-spacing: -0.28px;
+  text-align: left;
+  color: var(--black);
+}
+
+.unitstylethree {
+  margin: 0px 30px 0px 23px;
+  font-family: "ubuntu", sans-serif;
+  font-size: 18px;
+  letter-spacing: -0.28px;
+  text-align: left;
+  color: var(--black);
+}
+
+.savingstypestyle {
+  margin: 0px 24px 10px 0px;
+  font-family: "ubuntu", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: -0.28px;
+  text-align: left;
+  color: #a7a6a6;
+}
+
+.wastesavingstypestyle {
+  margin: 0px 24px 10px 20px;
+  font-family: "ubuntu", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: -0.28px;
+  text-align: left;
+  color: #a7a6a6;
+}
+
+.mysavingsheading {
+  margin-top: 0px !important;
+  margin-bottom: 15px !important;
+  flex-grow: 0;
+  font-family: "ubuntu", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.28px;
+  text-align: left;
+  color: #308622;
+}
+
+.cosavingstypestyle {
+  margin: 0px 24px 10px 15px;
+  font-family: "ubuntu", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: -0.28px;
+  text-align: left;
+  color: #a7a6a6;
+}
+
+.savngsonedigitparastyle {
+  margin-top: 0px;
+  margin-left: 2px;
+  margin-bottom: 0px;
+}
+
+.savngstwodigitparastyle {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}

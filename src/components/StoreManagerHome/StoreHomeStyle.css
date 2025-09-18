@@ -1,0 +1,231 @@
+.col-4 {
+  display: flex;
+}
+
+.logoutbtn {
+  display: flex;
+  align-items: center;
+  background: #272936;
+  border: none;
+  color: #fff;
+  margin-left: 7px;
+  font-size: 14px;
+  margin-top: 7px;
+  padding: 0.5em;
+}
+
+.notificationbtn {
+  margin-top: 7px;
+  margin-left: 7vh;
+  display: flex;
+  align-items: center;
+  background: #272936;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 0.5em;
+}
+
+.notificationimg,
+.logoutimgclss {
+  height: 2em;
+  width: 2em;
+}
+
+.profile-name {
+  color: #fff;
+  font-size: 14px;
+  background: #272936;
+  border: none;
+  margin: 0;
+  /* margin-right: 5px !important; */
+}
+
+.profileavatar-container {
+  display: flex;
+  margin-top: 10px;
+  /* margin-left: 2px; */
+  border: none;
+  background: none;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.totalcontainer {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  height: 80vh;
+}
+
+.leftcontainer {
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 1%;
+  width: 95%;
+  height: 100%;
+  overflow: auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.leftcontainer::-webkit-scrollbar {
+  width: 8px;
+}
+
+.leftcontainer::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.leftcontainer::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.leftcontainer::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.dropdowncontainer {
+  margin-top: 4px;
+}
+
+.logodiv {
+  height: 10vh;
+}
+
+.mysearch-container {
+  margin-top: 1px;
+}
+
+.search-button {
+  padding: 6px 12px;
+}
+
+.rightcontainer {
+  margin: 2%;
+  width: 27%;
+  height: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.mynavbar {
+  background: #272936;
+  height: fit-content;
+  width: 100.5%;
+}
+
+.companyrole {
+  font-size: 10px !important;
+}
+
+.profile {
+  height: 10vh;
+}
+
+.pictureprofile {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.profilepart {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin-top: 1vh;
+}
+
+.statedropdownclass {
+  align-items: center;
+  justify-content: center !important;
+  border-radius: 100px;
+  margin-top: 2px;
+  height: 6vh;
+  width: 100% !important;
+}
+
+.p-placeholder {
+  font-size: 12px;
+  padding: 9px;
+}
+
+.countrydropdownclass {
+  font-size: 5px !important;
+  margin-left: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+  padding: 6px;
+  border-radius: 100px;
+  height: 6vh;
+  width: 110% !important;
+}
+
+.notificationimg {
+  height: 2vw;
+  width: 2vw;
+  justify-content: 'center';
+}
+
+.logouticonclss {
+  display: 'flex';
+  background: #272936;
+  border: #272936;
+  margin-left: 2vw;
+  justify-content: 'center';
+  align-items: 'center';
+  color: #fff;
+}
+
+.logoutbtnmrgin {
+  margin-top: 2vw;
+  background: #272936;
+  border: none;
+}
+
+.logoutimgclss {
+  height: 1.5em;
+  width: 1.5em;
+  justify-content: 'center';
+}
+
+.footerstyle {
+  height: 4vh;
+  width: 100%;
+  margin-top: 1.1vw;
+  position: fixed;
+}
+
+.search-bar {
+  position: relative;
+  margin-left: 25vh;
+}
+
+.search-inputtwo {
+  padding-left: 30px;
+  width: 25vw;
+  margin-top: 5px;
+  height: 6vh;
+  border-radius: 100px;
+  border:none !important;
+}
+.namecomproleclss
+{
+  margin-top: 0.5px;
+}
+.search-icontwo {
+  position: absolute;
+  top: 51%;
+  left: 10px;
+  margin-top: 4px;
+  transform: translateY(-50%);
+  color: #aaa;
+}

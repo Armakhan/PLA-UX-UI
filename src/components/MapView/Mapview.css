@@ -1,0 +1,18 @@
+.mapStyles {
+  position: absolute;
+  width: 101%;
+  height: 114%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.containerStyles {
+  position: relative;
+}
+
+.mapcontainer {
+  position: absolute;
+  width: 95%;
+  height: 53%;
+}
