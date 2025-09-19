@@ -1,5 +1,9 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
+import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
+import './StackedHorizontal.css';
+
+ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
 const StackedHorizontal = () => {
   const data = {
@@ -19,10 +23,15 @@ const StackedHorizontal = () => {
   };
 
   const options = {
+    responsive: true,
+    maintainAspectRatio: false,
     indexAxis: 'y', // Display data on the y-axis
     plugins: {
       legend: {
-        display: false,
+        display: false, // Hide built-in legend since we have custom legend
+      },
+      tooltip: {
+        enabled: true,
       },
     },
     scales: {
@@ -35,7 +44,26 @@ const StackedHorizontal = () => {
     },
   };
 
-  return <Bar data={data} options={options} />;
+  return (
+    <div className="stacked-horizontal-container">
+      <div className="chart-header">
+        <div className="chart-title">Stacked Horizontal Chart</div>
+      </div>
+      <div className="stacked-horizontal-wrapper">
+        <Bar data={data} options={options} />
+      </div>
+      <div className="chart-legend">
+        <div className="legend-item">
+          <span className="legend-color dataset-1"></span>
+          <span className="legend-label">Dataset 1</span>
+        </div>
+        <div className="legend-item">
+          <span className="legend-color dataset-2"></span>
+          <span className="legend-label">Dataset 2</span>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default StackedHorizontal;
